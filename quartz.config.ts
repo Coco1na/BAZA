@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "БАЗА ЗНАНИЙ",
+    pageTitle: "База знаний",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -85,7 +85,7 @@ const config: QuartzConfig = {
         enableRSS: true,
       }),
       Plugin.Assets({
-        assets: ["content/images"],
+        assets: ["content/image"],
       }),
       Plugin.Static(),
       Plugin.NotFoundPage(),
